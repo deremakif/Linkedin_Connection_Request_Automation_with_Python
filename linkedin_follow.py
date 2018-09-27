@@ -18,7 +18,7 @@ while a < 30000:
 	connect = browser.find_element_by_xpath("/html/body/div[5]/div[5]/div[2]/div/div/div/div/div/div/div/section/ul/li[1]/div/section/footer")
 	connect.click()
 	time.sleep(1)
-	#Window should be scrolled for more suggestions 
+	#Window should be scrolled down for more suggestions 
 	browser.execute_script("window.scrollTo(0,20000000);")
 	time.sleep(2)
 	browser.execute_script("window.scrollTo(0,20);")
