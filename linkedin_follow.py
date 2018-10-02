@@ -14,7 +14,8 @@ time.sleep(5)
 a = 1
 #Linkedin allows just 30 thousand connections for free users
 while a < 30000:
-	#Connection request will be sent automatically for each suggestions		
+	#Connection request will be sent automatically for each suggestions.
+	#Please check xpaths before running this program! LinkedIn may have changed.
 	connect = browser.find_element_by_xpath("/html/body/div[5]/div[5]/div[2]/div/div/div/div/div/div/div/section/ul/li[1]/div/section/footer")
 	connect.click()
 	time.sleep(1)
